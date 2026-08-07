@@ -1,0 +1,22 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+body {
+    background-color: #006e2e41;
+}
+#div1 {
+    background-color: red;
+}
+#div2 {
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+}
+#div3 {
+    background-color: green;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
