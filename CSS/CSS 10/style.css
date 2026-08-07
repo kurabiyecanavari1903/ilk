@@ -1,0 +1,21 @@
+div {
+
+    font-weight: bold;
+    text-align: center;
+
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: yellow;
+}
+
+#div3 {
+    background-color: aqua;
+}
