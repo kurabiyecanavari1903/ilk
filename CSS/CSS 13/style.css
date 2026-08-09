@@ -1,0 +1,32 @@
+#loadBar{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(202, 202, 202);
+    transition: .6s;
+}
+
+#loadBar:hover{
+    background-color: rgb(255, 0, 200);
+}
+
+#loadBar::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 30px;
+    background-color: rgb(60, 255, 0);
+    animation-name: load;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes load{
+    0%{
+        width: 0px;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        width: 300px;
+    }
